@@ -1,0 +1,38 @@
+a.btn {
+  background-color: #90c290;
+  border-color: #90c290;
+}
+
+a.btn:hover {
+  background-color: #688b58;
+  border-color: #688b58;
+}
+
+div.row {
+  margin: 2em;
+}
+
+header {
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+footer {
+  padding: 1em;
+  padding-top: 3em;
+  background-color: #90c290;
+}
+footer div {
+  font-size: x-small;
+  color: #688b58;
+}
+
+main .card-columns {
+  margin: 4em;
+}
+
+a:link {
+  color: #688b58;
+}
+
+/*# sourceMappingURL=style.css.map */

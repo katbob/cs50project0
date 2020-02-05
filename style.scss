@@ -1,0 +1,43 @@
+$green-color: #688b58;
+$light-green-color: #90c290;
+$standart-space: 1em;
+
+a.btn{
+    background-color: $light-green-color;
+    border-color: $light-green-color;
+}
+
+a.btn:hover {
+    background-color: $green-color;
+    border-color: $green-color;
+}
+
+div.row {
+    margin: $standart-space + 1;
+}
+
+header {
+    margin-bottom: $standart-space;
+    padding: $standart-space;
+}
+
+footer {
+    padding: $standart-space;
+    padding-top: $standart-space + 2;
+    background-color: $light-green-color;
+    
+    div{
+        font-size: x-small;
+        color: $green-color;
+    }
+}
+
+main{
+    .card-columns{
+            margin: $standart-space+3;
+        }
+    }
+
+a:link {
+    color: $green-color;
+}
