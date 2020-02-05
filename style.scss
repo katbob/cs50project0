@@ -23,7 +23,6 @@ header {
 
 footer {
     padding: $standart-space;
-    padding-top: $standart-space + 2;
     background-color: $light-green-color;
     
     div{
@@ -33,6 +32,15 @@ footer {
 }
 
 main{
+
+        text-align: center;
+    h1 {
+        margin: $standart-space;
+    }
+    img{
+        margin-bottom: $standart-space+3;
+    }
+
     .card-columns{
             margin: $standart-space+3;
         }
@@ -40,4 +48,16 @@ main{
 
 a:link {
     color: $green-color;
+}
+
+@media (max-width: 1200px) {
+    footer{
+        height: 30%;
+
+        div {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
 }

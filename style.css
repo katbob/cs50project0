@@ -19,7 +19,6 @@ header {
 
 footer {
   padding: 1em;
-  padding-top: 3em;
   background-color: #90c290;
 }
 footer div {
@@ -27,12 +26,32 @@ footer div {
   color: #688b58;
 }
 
+main {
+  text-align: center;
+}
+main h1 {
+  margin: 1em;
+}
+main img {
+  margin-bottom: 4em;
+}
 main .card-columns {
   margin: 4em;
 }
 
 a:link {
   color: #688b58;
+}
+
+@media (max-width: 1200px) {
+  footer {
+    height: 30%;
+  }
+  footer div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
